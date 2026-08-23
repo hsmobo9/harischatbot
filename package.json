@@ -1,0 +1,13 @@
+{
+  "name": "haris-farooq-ai-chatbot-backend",
+  "version": "1.0.0",
+  "description": "Production 24/7 AI Lead Generation Chatbot Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
