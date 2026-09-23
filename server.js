@@ -59,7 +59,7 @@ function saveLeadRecord(sessionId, userMsg, aiReply) {
 function callGroqAPI(messages) {
   return new Promise((resolve) => {
     const postData = JSON.stringify({
-      model: "qwen/qwen3.6-27b",
+     model: "llama-3.3-70b-versatile",
       messages: [
         { role: "system", content: SYSTEM_PROMPT },
         ...messages
